@@ -95,3 +95,22 @@ a:hover { text-decoration: underline; }
   .hero h1 { font-size: 26px; }
   .site-header .wrap { flex-direction: column; align-items: flex-start; }
 }
+
+/* images & figures */
+.page-content img, .post-content img {
+  max-width: 100%; height: auto; display: block;
+  border: 1px solid var(--border); border-radius: 8px; margin: 24px 0 10px;
+}
+figure { margin: 26px 0; }
+figure figcaption, .figure-caption {
+  color: var(--dim); font-family: var(--mono); font-size: 12px; line-height: 1.6;
+}
+
+/* stat grid (track record) */
+.stat-grid { display: flex; flex-wrap: wrap; gap: 14px; margin: 26px 0 8px; }
+.stat {
+  flex: 1 1 150px; border: 1px solid var(--border); background: var(--surface);
+  border-radius: 10px; padding: 18px 20px;
+}
+.stat .num { font-family: var(--mono); font-size: 30px; font-weight: 700; color: var(--accent); line-height: 1.1; }
+.stat .label { color: var(--dim); font-size: 13px; margin-top: 6px; }
