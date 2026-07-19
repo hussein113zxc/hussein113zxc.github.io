@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p class="tagline">{{ site.tagline }}</p>
+  <div class="hero-body">{{ content }}</div>
+</section>
+<section class="posts">
+  <h2 class="section-title">// Writeups</h2>
+  {% for post in site.posts %}
+  <article class="post-card">
+    <a href="{{ post.url | relative_url }}">
+      <h3>{{ post.title }}</h3>
+      <time>{{ post.date | date: "%b %d, %Y" }}</time>
+      <p>{{ post.excerpt | strip_html | truncate: 165 }}</p>
+    </a>
+  </article>
+  {% endfor %}
+</section>

@@ -1,9 +1,6 @@
-title: "Aizen Sosuke — Security Research"
-tagline: "Bug Bounty & Web Application Security"
+title: "Aizen Sosuke"
+tagline: "// Security Research & Bug Bounty"
 description: >-
   Web application security research, bug bounty writeups, and responsible
   disclosure by Aizen Sosuke.
-author:
-  name: "Aizen Sosuke"
-theme: minima
-show_excerpts: true
+author: "Aizen Sosuke"
